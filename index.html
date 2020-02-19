@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="general">
         <form action="http://www.mocky.io/v2/5e482ff83000007400294a9e" method="post">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required>
-            <br>
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" required>
+            <div class="name">
+                <label for="name">Your Name (required)</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Your Email (required)</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
             <fieldset>
                 <legend>What's this all about</legend>
                 <input type="checkbox" id="hi" name="hi" value="say hello"></option>
@@ -30,7 +33,7 @@
             
             <label for="subject">Subject</label>
             <select name="car" id="subject">
-                <option value="select subject">select subject</option>
+                <option value="select subject"></option>
                 <option value="mercedes">mercedes</option>
                 <option value="bmw">bmw</option>
                 <option value="audi">audi</option>
