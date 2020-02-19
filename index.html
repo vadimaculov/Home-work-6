@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS" >
+    <meta name="autor" content="Aculov Vadim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW-6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form action="http://www.mocky.io/v2/5e482ff83000007400294a9e" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            <fieldset>
+                <legend>What's this all about</legend>
+                <input type="checkbox" id="hi" name="hi" value="say hello"></option>
+                <label for="hi">Say Hello</label>
+                <input type="checkbox" id="work" name="work" value="compain"></option>
+                <label for="work">Compain</label>
+                <input type="checkbox" id="humor" name="humor" value="share a joke"></option>
+                <label for="humor">Share a joke</label>
+            </fieldset>
+            
+            <label for="subject">Subject</label>
+            <select name="car" id="subject">
+                <option value="select subject">select subject</option>
+                <option value="mercedes">mercedes</option>
+                <option value="bmw">bmw</option>
+                <option value="audi">audi</option>
+            </select>
+            
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            
+            <input type="submit" value="SEND">
+            </form>
+
+    </div>
+    
+</body>
+</html>
